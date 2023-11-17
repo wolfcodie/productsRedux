@@ -59,16 +59,17 @@
 .stats {
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .stats-left {
   background-color: var(--dark-green);
   border-radius: 20px;
   padding-left: 2rem;
-  width: fit-content;
   border: var(--border);
   justify-content: center;
   align-items: center;
   color: var(--white);
+  flex: 3;
 }
 .stats-left h2 {
   width: 70%;
@@ -86,7 +87,8 @@
   background-color: var(--dark-green);
   border-radius: 20px;
   padding: 1rem 2rem;
-  width: 40%;
+
+  flex: 1;
   border: var(--border);
   justify-content: center;
   align-items: center;

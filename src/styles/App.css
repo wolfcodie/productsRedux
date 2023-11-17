@@ -66,6 +66,17 @@ button {
 ::-webkit-scrollbar-button {
   display: none;
 }
+@media (max-width: 1200px) {
+  .stats {
+    flex-direction: column;
+  }
+  .stats-right {
+    width: 100%;
+  }
+  .stats-left {
+    width: 100%;
+  }
+}
 @media (max-width: 900px) {
   nav {
     height: 10vh;
@@ -83,13 +94,10 @@ button {
   .links {
     flex-direction: row;
   }
-  .stats-right {
-    width: 100vw !important;
-    margin-top: 1rem;
+  .stats {
+    flex-direction: column;
   }
-  .stats-left {
-    width: 100vw;
-  }
+
   .stats-left img {
     width: 50%;
   }
